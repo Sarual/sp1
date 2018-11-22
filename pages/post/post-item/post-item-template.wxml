@@ -1,0 +1,20 @@
+<template name="postItem">
+    <view class="post-container">
+        <view class="post-author-date">
+            <image class="post-author" src="/images/shui.jpeg"></image>
+            <!-- 字符串拼接（运算） -->
+            <text class="post-date">{{" Hi, "+date}}</text>
+            <!-- 也可以做算术运算-看文档-从文档中找答案 -->
+        </view>
+        <text class="post-title">{{title}}</text>
+        <!-- 用wx:if来控制元素的显隐 -->
+        <image class="post-image" src="{{img.image1}}"></image>
+        <text class="post-content">还好有你的陪伴，我们一起吃火锅、吹空调呀,真呀真开心呀</text>
+        <view class="post-like">
+            <image class="post-like-image" src="{{img.image1}}"></image>
+            <text class="post-like-font">92</text>
+            <image class="post-like-image" src="{{img.image2}}"></image>
+            <text class="post-like-font">65</text>
+        </view>
+    </view>
+</template>

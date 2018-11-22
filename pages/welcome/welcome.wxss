@@ -1,0 +1,55 @@
+page{
+    height: 100%;
+    background-color: pink
+}
+.container{
+    display: flex;
+    /* background-color: pink; */
+    flex-direction:column;
+    align-items: center;
+    /* height: 1314rpx;固定的，不行 */
+    /* height: 100%;不行 */
+}
+.user-avatar{
+    width:350rpx;
+    margin-top: 160rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.user-name{
+    margin-top: 80rpx;
+    font-size: 32rpx;
+    font-weight: bold;
+}
+.moto-container{
+    margin-top: 180rpx;
+    border: 1px solid #000;
+    border-radius: 5rpx;
+    width: 200rpx;
+    height: 80rpx;
+    text-align: center;
+}
+.moto{
+    font-size: 22rpx;
+    font-weight: bold;
+    line-height: 80rpx;
+}

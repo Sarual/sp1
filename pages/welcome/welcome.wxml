@@ -1,0 +1,11 @@
+<page>
+    <view id="container" class="container">
+        <image class="user-avatar" style="height:260rpx" src="/images/tim1.jpg"></image>
+        <text class="user-name">Hi,sarual</text>
+        <!-- 页面跳转有两种方法：1.事件2.navigation -->
+        <!-- 有bug,可能会出现 -->
+        <view class="moto-container" bindtap="onContainerTap">
+            <text class="moto"  bindtap="onTextTap">开启小程序之旅</text>
+        </view>
+    </view>
+</page>

@@ -1,0 +1,12 @@
+{
+    "pages":[
+        "pages/welcome/welcome",
+        "pages/post/post",
+        "pages/post/post-detail/post-detail"
+    ],
+    "window":{
+        "navigationBarBackgroundColor": "#e54847",
+        "navigationBarTitleText": "七月在夏天",
+        "enablePullDownRefresh": true
+    } 
+}

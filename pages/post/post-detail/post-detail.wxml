@@ -1,0 +1,22 @@
+<!-- 先静后动，先样式再数据 -->
+<!-- 先写个view，view是整体的container使的 -->
+<view class="container">
+    <image class="head-image" src="/images/xin.jpeg"></image>
+    <image class="kong" src="/images/kong.jpg"></image>
+    <view class="author-data">
+        <image src="/images/shui.jpeg" class="avatar"></image>
+        <text class="author">胡歌</text>
+        <text class="const-text">发表于</text>
+        <text class="date">三天前</text>
+    </view>
+    <text class="title">炉石传说好玩吗？</text>
+    <view class="tool">
+        <view class="circle-img">
+            <image src="/images/shui.jpeg"></image>
+            <image class="share-img" src="/images/sleep.jpg"></image>
+        </view>
+        <!-- 直线 -->
+        <view class="horizon"></view>
+    </view>
+    <text class="detail">炉石传说，好玩啊好玩啊好玩的很啊,我虽然不没玩过这个游戏哦，但是吧，我猜它很好玩。</text>
+</view>
